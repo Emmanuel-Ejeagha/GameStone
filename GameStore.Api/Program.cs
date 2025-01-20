@@ -23,7 +23,7 @@ List<GameDto> games = [
         new DateOnly(2010, 9, 30)
     ),
     new (
-        2,
+        3,
         "FIFA 23",
         "Sports",
         69.99M,
@@ -54,7 +54,8 @@ app.MapPost("games", (CreateGameDto newGame) => {
 });
 
 // PUT /games
-app.MapPut("games/{id}", (int id, UpdateGameDto updatedGame) => {
+app.MapPut("games/{id}", (int id, UpdateGameDto updatedGame) =>
+{
     var index = games.FindIndex(game => game.Id == id);
     games[index] = new GameDto(
         id,
@@ -66,6 +67,11 @@ app.MapPut("games/{id}", (int id, UpdateGameDto updatedGame) => {
     return Results.NoContent();
 });
 
-// 
+// DELETE /games/1
+app.MapDelete("games/{id}", (int id) => 
+{
+    games.RemoveAll(game => game.Id == id);
+    return Results.NoContent();
+});
 
 app.Run();
