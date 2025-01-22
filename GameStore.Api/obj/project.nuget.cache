@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qCbq7R7VmZw=",
+  "dgSpecHash": "Hqx4mB081bw=",
   "success": true,
   "projectFilePath": "/home/emma/Desktop/GameStore/GameStore.Api/GameStore.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/emma/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/emma/.nuget/packages/minimalapis.extensions/0.11.0/minimalapis.extensions.0.11.0.nupkg.sha512",
+    "/home/emma/.nuget/packages/minivalidation/0.8.0/minivalidation.0.8.0.nupkg.sha512"
+  ],
   "logs": []
 }
