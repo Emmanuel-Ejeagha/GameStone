@@ -51,7 +51,10 @@ public static class GamesEndpoints
         // POST /games
         group.MapPost("/", (CreateGameDto newGame, GameStoreContext dbContext) =>
         {
-            GameDto game = new();
+            GameDto game = new()
+            {
+
+            }
             games.Add(game);
 
             return Results.CreatedAtRoute(GetGameEndpointName, new { id = game.Id }, game);
