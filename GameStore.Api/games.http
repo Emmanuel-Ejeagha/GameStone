@@ -4,7 +4,7 @@ GET http://localhost:5114/games
 GET http://localhost:5114/games/1
 
 ###
-GET http://localhost:5114/games/5
+GET http://localhost:5114/games/2
 
 ###
 POST http://localhost:5114/games
@@ -29,4 +29,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5114/games/2
+DELETE http://localhost:5114/games/7
