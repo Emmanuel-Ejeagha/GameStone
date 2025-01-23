@@ -18,14 +18,14 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:5114/games/7
+PUT http://localhost:5114/games/2
 Content-Type: application/json
 
 {
-    "name": "Street Fighter II Turbo",
-    "genre": "Fighting",
-    "price": 9.99,
-    "releaseDate": "1991-02-15"
+    "name": "Mortal Combact",
+    "GenreId": 3,
+    "price": 8.99,
+    "releaseDate": "2001-02-15"
 }
 
 ###
