@@ -11,10 +11,10 @@ POST http://localhost:5114/games
 Content-Type: application/json
 
 {
-    "name": "Minecraft",
-    "genreId": 5,
-    "price": 19.99,
-    "releaseDate": "2011-11-18"
+    "name": "Mortal Combat II",
+    "genreId": 1,
+    "price": 9.99,
+    "releaseDate": "2001-11-08"
 }
 
 ###
