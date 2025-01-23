@@ -14,6 +14,6 @@ public class Game
 
     public decimal Price { get; set; }
 
-    public DateTime ReleaseDate { get; set; }
+    public DateOnly ReleaseDate { get; set; }
 
 }

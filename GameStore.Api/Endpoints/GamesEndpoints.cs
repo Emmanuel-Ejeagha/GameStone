@@ -2,6 +2,7 @@ using System;
 using System.Reflection.Metadata.Ecma335;
 using GameStore.Api.Data;
 using GameStore.Api.Dtos;
+using GameStore.Api.Entities;
 
 namespace GameStore.Api.Endpoints;
 
@@ -51,11 +52,17 @@ public static class GamesEndpoints
         // POST /games
         group.MapPost("/", (CreateGameDto newGame, GameStoreContext dbContext) =>
         {
-            GameDto game = new()
+            Game game = new()
             {
+                Name = newGame.Name,
+                Genre = dbContext.Genres.Find(newGame.GenreId),
+                GenreId = newGame.GenreId,
+                Price = newGame.Price,
+                ReleaseDate = newGame.ReleaseDate
 
-            }
-            games.Add(game);
+            };
+            dbContext.Games.Add(game);
+            dbContext.SaveChanges();
 
             return Results.CreatedAtRoute(GetGameEndpointName, new { id = game.Id }, game);
         });
