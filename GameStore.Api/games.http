@@ -11,8 +11,8 @@ POST http://localhost:5114/games
 Content-Type: application/json
 
 {
-    "name": "Mortal Combat II",
-    "genreId": 1,
+    "name": "Final Fantasy XIV",
+    "genreId": 2,
     "price": 9.99,
     "releaseDate": "2001-11-08"
 }
