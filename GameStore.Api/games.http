@@ -11,10 +11,10 @@ POST http://localhost:5114/games
 Content-Type: application/json
 
 {
-    "name": "Final Fantasy XIV",
-    "genreId": 2,
-    "price": 9.99,
-    "releaseDate": "2001-11-08"
+    "name": "Mortal Combat",
+    "genreId": 3,
+    "price": 10.99,
+    "releaseDate": "2011-11-08"
 }
 
 ###
@@ -22,8 +22,8 @@ PUT http://localhost:5114/games/2
 Content-Type: application/json
 
 {
-    "name": "Mortal Combact",
-    "GenreId": 3,
+    "name": "Mortal Combat 2",
+    "GenreId": 1,
     "price": 8.99,
     "releaseDate": "2001-02-15"
 }
