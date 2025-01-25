@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Backend: GameStore.Api",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/GameStoreBackend/GameStore.Api/GameStore.Api.csproj"
+    },
+    {
+      "name": "Frontend: GameStore.Frontend",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/GameStoreFrontend/GameStore.Frontend/GameStore.Frontend.csproj"
+    }
+  ]
+}

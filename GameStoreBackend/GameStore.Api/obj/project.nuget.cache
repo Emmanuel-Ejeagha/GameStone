@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GhQDyKBeGiU=",
+  "dgSpecHash": "ZuHZFEHxa+w=",
   "success": true,
-  "projectFilePath": "/home/emma/Desktop/C#_Projects/GameStore/GameStore.Api/GameStore.Api.csproj",
+  "projectFilePath": "/home/emma/Desktop/GameStore/GameStoreBackend/GameStore.Api/GameStore.Api.csproj",
   "expectedPackageFiles": [
     "/home/emma/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/emma/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

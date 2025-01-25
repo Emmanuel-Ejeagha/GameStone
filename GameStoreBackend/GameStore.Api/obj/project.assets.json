@@ -2479,11 +2479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/emma/Desktop/C#_Projects/GameStore/GameStore.Api/GameStore.Api.csproj",
+      "projectUniqueName": "/home/emma/Desktop/GameStore/GameStoreBackend/GameStore.Api/GameStore.Api.csproj",
       "projectName": "GameStore.Api",
-      "projectPath": "/home/emma/Desktop/C#_Projects/GameStore/GameStore.Api/GameStore.Api.csproj",
+      "projectPath": "/home/emma/Desktop/GameStore/GameStoreBackend/GameStore.Api/GameStore.Api.csproj",
       "packagesPath": "/home/emma/.nuget/packages/",
-      "outputPath": "/home/emma/Desktop/C#_Projects/GameStore/GameStore.Api/obj/",
+      "outputPath": "/home/emma/Desktop/GameStore/GameStoreBackend/GameStore.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/emma/.nuget/NuGet/NuGet.Config"

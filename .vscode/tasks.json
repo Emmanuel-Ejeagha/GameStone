@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "dotnet",
+      "task": "build /home/emma/Desktop/GameStore/GameStoreFrontend/GameStore.Frontend/GameStore.Frontend.csproj",
+      "file": "/home/emma/Desktop/GameStore/GameStoreFrontend/GameStore.Frontend/GameStore.Frontend.csproj",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "dotnet: build /home/emma/Desktop/GameStore/GameStoreFrontend/GameStore.Frontend/GameStore.Frontend.csproj"
+    }
+  ]
+}
